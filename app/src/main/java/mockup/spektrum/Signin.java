@@ -19,7 +19,7 @@ public class Signin extends AppCompatActivity {
     }
 
     public void onSignin(View view) {
-
+        startActivity(new Intent(getApplicationContext(), Main.class));
     }
 
     public void onForgot(View view) {

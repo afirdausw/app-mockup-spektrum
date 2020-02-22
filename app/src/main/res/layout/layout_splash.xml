@@ -2,40 +2,54 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:background="@color/colorAccent">
+    android:background="@color/colorAccent"
+    android:gravity="center">
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:layout_marginBottom="60dp"
+        android:gravity="center"
         android:orientation="vertical">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:scaleType="centerCrop"
-            android:src="@mipmap/ic_launcher_round" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:focusedByDefault="true"
+            android:paddingStart="30dp"
+            android:paddingTop="15dp"
+            android:paddingEnd="30dp"
+            android:paddingBottom="15dp">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/logo_spektrum" />
+
+        </LinearLayout>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="30dp"
             android:layout_marginBottom="10dp"
-            android:textColor="#FFF"
-            android:textAllCaps="true"
-            android:textSize="18sp"
+            android:letterSpacing="0.2"
             android:text="@string/app_name"
-            android:letterSpacing="0.2"/>
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#80FFFFFF"
-            android:textSize="14sp"
+            android:letterSpacing="0.1"
             android:text="Developer Found 404"
-            android:letterSpacing="0.1"/>
+            android:textColor="#80FFFFFF"
+            android:textSize="14sp" />
 
     </LinearLayout>
 
