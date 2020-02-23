@@ -28,7 +28,7 @@
                 android:layout_width="130dp"
                 android:layout_height="60dp"
                 android:scaleType="centerInside"
-                android:src="@drawable/logo_spektrum" />
+                android:src="@drawable/img_logo" />
 
         </LinearLayout>
 

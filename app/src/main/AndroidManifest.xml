@@ -20,9 +20,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main"/>
+        <activity android:name=".MainList"/>
         <activity android:name=".Signin"/>
         <activity android:name=".Signup"/>
         <activity android:name=".Forgot"/>
+        <activity android:name=".Device"/>
+        <activity android:name=".DeviceAdd"/>
+        <activity android:name=".Profile"/>
 
     </application>
 

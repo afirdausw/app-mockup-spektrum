@@ -1,19 +1,21 @@
 package mockup.spektrum;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Signup extends AppCompatActivity {
+public class Device extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getSupportActionBar().hide();
-        setContentView(R.layout.layout_signup);
+        setContentView(R.layout.layout_device);
 
-        getWindow().setStatusBarColor(getResources().getColor(R.color.colorAccent));
+        getWindow().setStatusBarColor(getResources().getColor(R.color.colorPrimary));
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
     }
 
@@ -21,11 +23,7 @@ public class Signup extends AppCompatActivity {
         finish();
     }
 
-    public void onLogin(View view) {
-        finish();
-    }
-
-    public void onSignup(View view) {
-
+    public void onAdd(View view) {
+        startActivity(new Intent(getApplicationContext(), DeviceAdd.class));
     }
 }
