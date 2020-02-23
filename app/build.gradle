@@ -32,4 +32,5 @@ dependencies {
     implementation "androidx.cardview:cardview:1.0.0"
     implementation 'de.hdodenhof:circleimageview:3.0.1'
     implementation 'com.synnapps:carouselview:0.1.4'
+    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
 }

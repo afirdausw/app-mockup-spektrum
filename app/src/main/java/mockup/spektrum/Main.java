@@ -38,6 +38,10 @@ public class Main extends AppCompatActivity {
         }
     };
 
+    public void onProfile(View view) {
+        startActivity(new Intent(getApplicationContext(), Profile.class));
+    }
+
     public void BookingParking(View view) {
         startActivity(new Intent(getApplicationContext(), MainList.class));
     }

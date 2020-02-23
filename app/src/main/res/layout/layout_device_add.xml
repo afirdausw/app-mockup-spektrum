@@ -9,9 +9,9 @@
         android:layout_height="wrap_content"
         android:background="@color/colorPrimary"
         android:elevation="2dp"
-        android:paddingStart="30dp"
+        android:paddingStart="20dp"
         android:paddingTop="20dp"
-        android:paddingEnd="30dp"
+        android:paddingEnd="20dp"
         android:paddingBottom="15dp">
 
         <ImageView
