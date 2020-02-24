@@ -71,7 +71,7 @@
         android:layout_marginEnd="30dp"
         android:orientation="vertical"
         app:cardBackgroundColor="#FFF"
-        app:cardCornerRadius="15dp"
+        app:cardCornerRadius="8dp"
         app:cardElevation="3dp">
 
         <com.synnapps.carouselview.CarouselView
@@ -115,7 +115,8 @@
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:onClick="BookingParking"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
@@ -186,7 +187,8 @@
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
                 android:onClick="Energy"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
@@ -256,7 +258,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
@@ -325,7 +328,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
@@ -394,7 +398,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
@@ -464,7 +469,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
@@ -534,7 +540,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
@@ -604,7 +611,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
@@ -674,7 +682,8 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:foreground="?android:attr/selectableItemBackground"
-                app:cardCornerRadius="15dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="8dp"
                 app:cardElevation="2dp">
 
                 <LinearLayout
