@@ -29,7 +29,7 @@ public class Profile extends AppCompatActivity {
 
         name.setText("Afif Firdaus Wipayana");
         gender.setText("Male");
-        date.setText("09-09-1999");
+        date.setText("09 September 1999");
         address.setText("Jl. Kenanga Indah 1 No.12D, Jatimulyo, Lowokwaru, Malang");
         phone.setText("0812-4040-0042");
         username.setText("Firwyna");
